@@ -1,0 +1,36 @@
+body {
+	background-image: url("bg.jpg");
+}
+
+p {
+	font-size: 0.7em;
+	line-height: 5px;
+	color: yellow;
+}
+
+.hit {
+	height: 5.0em;
+	line-height: 0;
+	float: left;
+	border: 2px solid black;
+	margin: 10px;
+	width: 5.0em;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	padding-top: 1.0em;
+}
+
+#kit {
+	width: 62%;
+	margin: 20% auto;
+}
+
+.playing {
+	border: 2px solid yellow;
+	/*box-shadow: 10px 10px 5px yellow;*/
+	transform: scale(1.1);
+	transition: transform 0.2s;
+	background-color: rgba(50,50,50,0.3);
+
+}
